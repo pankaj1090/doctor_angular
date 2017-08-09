@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta name="description"  content=""/>
+	<meta name="keywords" content="">
+	<meta name="author"  content=""/>
+	<meta name="MobileOptimized" content="320">
+	
+	<title>Doctor Directory</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link rel="icon" type="image/ico" href="assets/images/logo.png" />
+	
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+<div class="dd_loading_wrapper">
+    <div class="dd_loading_inner">
+        <img src="assets/images/loader01.gif" alt="" />
+    </div>
+</div>
+
+<div class="dd_sidebar_close"></div>
+
+<!-- header start -->
+<div class="dd_header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="dd_logo">
+                    <a href="category.html"><img src="assets/images/logo_with_text.png" alt=""></a>
+                </div>
+                <div class="dd_nav">
+                    <ul>
+                        <li><a href="category.html" class="active">Category</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="favourite.html">Favourite</a></li>
+                    </ul>
+                </div>
+
+                <div class="dd_header_right">
+                    <div class="dd_profile_dd dd_dropdown_wrapper dropdown_right">
+                        <div class="icon has_image">
+                            <img src="assets/images/user_image.png" alt="" />
+                            <span class="name_initial">JD</span>
+                        </div>
+                        <label>Hi John</label>
+                        <div class="dd_dropdown">
+                            <div class="dd_dropdown_inner">
+                                <ul>
+                                    <li><a href="profile.html">Profile setting</a></li>
+                                    <li><a href="authentication.html">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dd_nav_toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<!-- header end -->
+
+<div class="dd_main_wrapper">
+    <div class="dd_page_title">
+        <h3>Find Your Doctors</h3>
+    </div>
+
+    <div class="dd_doctor_list_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- category start -->
+                    <div class="dd_category_toggle">
+                        <svg x="0px" y="0px" viewBox="0 0 60.123 60.123" style="enable-background:new 0 0 60.123 60.123;" xml:space="preserve" width="512px" height="512px"><g><path d="M57.124,51.893H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3S58.781,51.893,57.124,51.893z" fill="#11ccc2"/><path d="M57.124,33.062H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3 C60.124,31.719,58.781,33.062,57.124,33.062z" fill="#11ccc2"/><path d="M57.124,14.231H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3S58.781,14.231,57.124,14.231z" fill="#11ccc2"/><circle cx="4.029" cy="11.463" r="4.029" fill="#11ccc2"/><circle cx="4.029" cy="30.062" r="4.029" fill="#11ccc2"/><circle cx="4.029" cy="48.661" r="4.029" fill="#11ccc2"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                    </div>
+                    <div class="dd_category_wrapper">
+                        <h3>Find from category</h3>
+                        <div class="panel-group" id="category_id">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#category_id" href="#category1" aria-expanded="true">
+                                            <img src="assets/images/category/specialist.svg" alt=""> Specialist
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="category1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <ul class="list-group">
+                                            <li><a class="list-group-item">Sub category1 <span class="badge">12</span></a></li>
+                                            <li><a class="list-group-item">Sub category2 <span class="badge">4</span></a></li>
+                                            <li><a class="list-group-item">Sub category3 <span class="badge">8</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#category_id" href="#category2">
+                                            <img src="assets/images/category/doctors.svg" alt=""> Doctors
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="category2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="list-group">
+                                            <li><a class="list-group-item">Sub category1 <span class="badge">12</span></a></li>
+                                            <li><a class="list-group-item">Sub category2 <span class="badge">4</span></a></li>
+                                            <li><a class="list-group-item">Sub category3 <span class="badge">8</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#category_id" href="#category3">
+                                            <img src="assets/images/category/dentist.svg" alt=""> Dentist
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="category3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="list-group">
+                                            <li><a class="list-group-item">Sub category1 <span class="badge">12</span></a></li>
+                                            <li><a class="list-group-item">Sub category2 <span class="badge">4</span></a></li>
+                                            <li><a class="list-group-item">Sub category3 <span class="badge">8</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#category_id" href="#category4">
+                                            <img src="assets/images/category/accupunture.svg" alt=""> Accupunture
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="category4" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="list-group">
+                                            <li><a class="list-group-item">Sub category1 <span class="badge">12</span></a></li>
+                                            <li><a class="list-group-item">Sub category2 <span class="badge">4</span></a></li>
+                                            <li><a class="list-group-item">Sub category3 <span class="badge">8</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#category_id" href="#category5">
+                                            <img src="assets/images/category/therapist.svg" alt=""> Therapist
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="category5" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="list-group">
+                                            <li><a class="list-group-item">Sub category1 <span class="badge">12</span></a></li>
+                                            <li><a class="list-group-item">Sub category2 <span class="badge">4</span></a></li>
+                                            <li><a class="list-group-item">Sub category3 <span class="badge">8</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- category end -->
+                </div>
+                <div class="col-md-8">
+                    <!-- filter start -->
+                    <div class="dd_filter_wrapper">
+                        <div class="dd_filter dd_dropdown_wrapper dropdown_right">
+                        <span class="icon">
+                            <svg width="15px" height="15px"><path fill-rule="evenodd" fill="rgb(182, 182, 182)" d="M14.936,0.414 C14.816,0.137 14.606,-0.002 14.308,-0.002 L0.691,-0.002 C0.393,-0.002 0.184,0.137 0.064,0.414 C-0.057,0.705 -0.007,0.954 0.213,1.160 L5.457,6.413 L5.457,11.592 C5.457,11.777 5.525,11.936 5.659,12.071 L8.383,14.799 C8.511,14.934 8.670,15.002 8.862,15.002 C8.947,15.002 9.035,14.984 9.127,14.948 C9.404,14.828 9.543,14.618 9.543,14.320 L9.543,6.413 L14.787,1.160 C15.007,0.954 15.057,0.705 14.936,0.414 Z"/></svg>
+                        </span> Filter By
+                            <div class="dd_dropdown">
+                                <div class="dd_dropdown_inner">
+                                    <ul>
+                                        <li><a href="">Ascending (a-z)</a></li>
+                                        <li><a href="">Descending (z-a)</a></li>
+                                        <li><a href="">Price</a></li>
+                                        <li><a href="">Morning time</a></li>
+                                        <li><a href="">Evening time</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- filter start -->
+
+                    <!-- doctor listing start -->
+                    <div class="dd_doctor_box">
+                        <div class="doc_image" style="background-image:url('assets/images/doctor/doc1.jpg');">
+                            <img src="assets/images/doctor/doc1.jpg" alt="">
+                        </div>
+                        <div class="doc_detail">
+                            <h3>DR. Cristina Dav</h3>
+                            <span>Cardiologist</span>
+                            <ul>
+                                <li><span><img src="assets/images/address.svg" alt=""></span> 44 Shirley Ave. West Chicago, IL 60185</li>
+                                <li><span><img src="assets/images/time.svg" alt=""></span> Morning 9AM -12PM</li>
+                            </ul>
+                            <h4>Fees - $250</h4>
+                            <div class="btn_wrapper">
+                                <a href="single_page.html" class="dd_btn dd_btn_small">View</a>
+                                <a href="" class="dd_btn dd_btn_small dd_btn_white dd_btn_icon active">Remove from favorite 
+                                    <span class="icon">
+                                        <svg width="23px" height="22px"><path fill-rule="evenodd" stroke-width="1px" stroke="rgb(14, 213, 227)" fill="rgb(0, 0, 0)" d="M19.476,7.971 C19.242,5.379 17.422,3.498 15.144,3.498 C13.627,3.498 12.237,4.321 11.455,5.641 C10.680,4.304 9.348,3.497 7.855,3.497 C5.577,3.497 3.757,5.378 3.523,7.971 C3.505,8.086 3.429,8.688 3.659,9.671 C3.991,11.089 4.758,12.379 5.875,13.400 L11.452,18.502 L17.124,13.400 C18.241,12.379 19.008,11.089 19.340,9.671 C19.570,8.689 19.494,8.086 19.476,7.971 ZM18.740,9.529 C18.437,10.824 17.735,12.004 16.712,12.938 L11.455,17.667 L6.289,12.940 C5.264,12.003 4.562,10.824 4.259,9.529 C4.041,8.599 4.130,8.073 4.131,8.070 L4.135,8.038 C4.335,5.767 5.899,4.118 7.855,4.118 C9.297,4.118 10.568,5.012 11.170,6.450 L11.454,7.128 L11.737,6.450 C12.330,5.034 13.668,4.118 15.144,4.118 C17.099,4.118 18.664,5.767 18.868,8.068 C18.869,8.073 18.958,8.599 18.740,9.529 Z"/></svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dd_doctor_box">
+                        <div class="doc_image" style="background-image:url('assets/images/doctor/doc2.jpg');">
+                            <img src="assets/images/doctor/doc2.jpg" alt="">
+                        </div>
+                        <div class="doc_detail">
+                            <h3>DR. Denial Joseph</h3>
+                            <span>Cardiologist</span>
+                            <ul>
+                                <li><span><img src="assets/images/address.svg" alt=""></span> 44 Shirley Ave. West Chicago, IL 60185</li>
+                                <li><span><img src="assets/images/time.svg" alt=""></span> Morning 9AM -12PM</li>
+                            </ul>
+                            <h4>Fees - $250</h4>
+                            <div class="btn_wrapper">
+                                <a href="single_page.html" class="dd_btn dd_btn_small">View</a>
+                                <a href="" class="dd_btn dd_btn_small dd_btn_white dd_btn_icon">Add to favorite 
+                                    <span class="icon">
+                                        <svg width="23px" height="22px"><path fill-rule="evenodd" stroke-width="1px" stroke="rgb(14, 213, 227)" fill="rgb(0, 0, 0)" d="M19.476,7.971 C19.242,5.379 17.422,3.498 15.144,3.498 C13.627,3.498 12.237,4.321 11.455,5.641 C10.680,4.304 9.348,3.497 7.855,3.497 C5.577,3.497 3.757,5.378 3.523,7.971 C3.505,8.086 3.429,8.688 3.659,9.671 C3.991,11.089 4.758,12.379 5.875,13.400 L11.452,18.502 L17.124,13.400 C18.241,12.379 19.008,11.089 19.340,9.671 C19.570,8.689 19.494,8.086 19.476,7.971 ZM18.740,9.529 C18.437,10.824 17.735,12.004 16.712,12.938 L11.455,17.667 L6.289,12.940 C5.264,12.003 4.562,10.824 4.259,9.529 C4.041,8.599 4.130,8.073 4.131,8.070 L4.135,8.038 C4.335,5.767 5.899,4.118 7.855,4.118 C9.297,4.118 10.568,5.012 11.170,6.450 L11.454,7.128 L11.737,6.450 C12.330,5.034 13.668,4.118 15.144,4.118 C17.099,4.118 18.664,5.767 18.868,8.068 C18.869,8.073 18.958,8.599 18.740,9.529 Z"/></svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dd_doctor_box">
+                        <div class="doc_image" style="background-image:url('assets/images/doctor/doc3.jpg');">
+                            <img src="assets/images/doctor/doc3.jpg" alt="">
+                        </div>
+                        <div class="doc_detail">
+                            <h3>DR. Cristina Dav</h3>
+                            <span>Cardiologist</span>
+                            <ul>
+                                <li><span><img src="assets/images/address.svg" alt=""></span> 44 Shirley Ave. West Chicago, IL 60185</li>
+                                <li><span><img src="assets/images/time.svg" alt=""></span> Morning 9AM -12PM</li>
+                            </ul>
+                            <h4>Fees - $250</h4>
+                            <div class="btn_wrapper">
+                                <a href="single_page.html" class="dd_btn dd_btn_small">View</a>
+                                <a href="" class="dd_btn dd_btn_small dd_btn_white dd_btn_icon">Add to favorite 
+                                    <span class="icon">
+                                        <svg width="23px" height="22px"><path fill-rule="evenodd" stroke-width="1px" stroke="rgb(14, 213, 227)" fill="rgb(0, 0, 0)" d="M19.476,7.971 C19.242,5.379 17.422,3.498 15.144,3.498 C13.627,3.498 12.237,4.321 11.455,5.641 C10.680,4.304 9.348,3.497 7.855,3.497 C5.577,3.497 3.757,5.378 3.523,7.971 C3.505,8.086 3.429,8.688 3.659,9.671 C3.991,11.089 4.758,12.379 5.875,13.400 L11.452,18.502 L17.124,13.400 C18.241,12.379 19.008,11.089 19.340,9.671 C19.570,8.689 19.494,8.086 19.476,7.971 ZM18.740,9.529 C18.437,10.824 17.735,12.004 16.712,12.938 L11.455,17.667 L6.289,12.940 C5.264,12.003 4.562,10.824 4.259,9.529 C4.041,8.599 4.130,8.073 4.131,8.070 L4.135,8.038 C4.335,5.767 5.899,4.118 7.855,4.118 C9.297,4.118 10.568,5.012 11.170,6.450 L11.454,7.128 L11.737,6.450 C12.330,5.034 13.668,4.118 15.144,4.118 C17.099,4.118 18.664,5.767 18.868,8.068 C18.869,8.073 18.958,8.599 18.740,9.529 Z"/></svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- doctor listing end -->
+                    
+                    <!-- pagination start -->
+                    <div class="dd_pagination">
+                        <ul class="pagination pagination-lg">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                        </ul>
+                    </div>
+                    <!-- pagination end -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<a href="#" id="dd_backToTop" title="Back to top">&uarr;</a>
+
+<!-- site jquery start -->
+<script src="assets/js/lib/jquery-3.1.1.min.js"></script>
+<script src="assets/js/lib/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<!-- site jquery end -->
+<!-- Angular scripts -->
+<script src="assets/angular/angular.min.js"></script>
+<!-- Angular scripts -->
+</body>
+</html>
